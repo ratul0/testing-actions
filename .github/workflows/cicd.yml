@@ -45,9 +45,9 @@ jobs:
           chmod +x gradlew
 
       - name: Run Tests
-          run: |
-            cd application
-            ./gradlew clean test
+        run: |
+          cd application
+          ./gradlew clean test
 
       - name: Build application
         run: |
